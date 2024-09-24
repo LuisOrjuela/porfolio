@@ -6,7 +6,6 @@ export default function Layout()
 {
     return (
     <>
-    {logo}
         <nav className ="topMenu">
             <Link to ="/">Home</Link>
             <Link to ="/About">About</Link>
@@ -14,5 +13,6 @@ export default function Layout()
             <Link to ="/Project">Project</Link>
             <Link to ="/Contract">Contract</Link>
         </nav>
+        <img src={logo} className="App-logo" alt="logo" />
     </>
 )}
